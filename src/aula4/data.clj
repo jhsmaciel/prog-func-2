@@ -38,7 +38,6 @@
     :age                26
     :location           "BA"}])
 
-
 (def purchases
   [{:client-id "1"
     :item-id "29"

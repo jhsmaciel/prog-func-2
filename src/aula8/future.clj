@@ -21,7 +21,7 @@
   (future-cancel futuro-controlado)
   (future-cancelled? futuro-controlado)
   (future? futuro-controlado)
-
+  (time (nil? nil))
   )
 
 (comment
@@ -177,3 +177,10 @@
   (time (concorrente))
 
   )
+
+
+(let [tempo-agora (.getTime (java.util.Date.))]
+  (Thread/sleep 1000)
+  (- tempo-agora (.getTime (java.util.Date.))))
+
+(java.util.Date.)

@@ -1,4 +1,4 @@
-(ns maps.data)
+(ns aula1.maps.data)
 
 
 (def cliente {:nome "Jose"
